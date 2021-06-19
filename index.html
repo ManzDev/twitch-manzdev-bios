@@ -1,0 +1,27 @@
+<script type="module">
+  import "./components/AwardBoot.js";
+  import "./components/AwardBios.js";
+</script>
+
+<style>
+  @font-face {
+    font-family: "Perfect DOS VGA 437";
+    src: url(./assets/perfect-dos-vga437.woff2) format("woff2");
+  }
+
+  body {
+    background: #000;
+    font-family: "Perfect DOS VGA 437", monospace;
+    font-size: 22px;
+    color: #888;
+    display: flex;
+    justify-content: center;
+  }
+</style>
+
+<body>
+
+  <div class="monitor">
+    <award-boot></award-boot>
+  </div>
+</body>
